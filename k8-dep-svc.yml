@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: afsarali1803/santa1234
+          image: afsarali1803/santa123:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
